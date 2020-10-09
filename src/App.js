@@ -60,7 +60,7 @@ class App extends Component {
           <h2> City Search</h2>
         </div >
         
-        <CitySearchField class="uppercase" cityChanged ={(e)=> this.handleCityChange(e)} value={this.state.onChange}/>
+        <CitySearchField cityChanged ={(e)=> this.handleCityChange(e)} value={this.state.onChange}/>
         
         <div>
           { this.state.zipCodes.map((zipCode) => {
